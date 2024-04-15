@@ -1,0 +1,40 @@
+* {
+    font-family: Helvetica-now, serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.dia {
+    background-color: rgba(240, 248, 255, 0.60) ;
+    width: auto;
+    padding: 30px;
+    margin: 50px 50px 50px 50px;
+    border-radius: 10px;
+    
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.dia p {
+    text-align: justify;
+    margin-right: 20px;
+    
+}
+
+.paquete {
+    display: inline-block;
+}
+
+.paquete-texto {
+    flex: 1;
+}
+
+.paquete-foto {
+    text-align: right;
+    flex: 1;
+}
