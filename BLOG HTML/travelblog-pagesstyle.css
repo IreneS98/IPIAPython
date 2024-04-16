@@ -8,33 +8,67 @@ h1 {
 }
 
 .dia {
-    background-color: rgba(240, 248, 255, 0.60) ;
+    background-color: rgba(240, 248, 255, 0.60);
     width: auto;
-    padding: 30px;
-    margin: 50px 50px 50px 50px;
+    padding: 40px;
+    margin: 50px 65px;
     border-radius: 10px;
-    
+
 }
 
 h2 {
     margin-top: 0;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 23px;
 }
 
 .dia p {
     text-align: justify;
     margin-right: 20px;
-    
+
 }
 
 .paquete {
-    display: inline-block;
+    display: flex;
 }
 
 .paquete-texto {
-    flex: 1;
+    flex: auto;
+    
 }
 
 .paquete-foto {
     text-align: right;
+    flex: auto;
+    margin-top: 15px;
+
+}
+
+.subtitulos-fotos {
+    display: flex;
+}
+
+.subtitulos-fotos div {
+    flex: auto;
+    text-align: center;
+
+}
+
+.paquete-foto-dobles {
+    flex: auto;
+    margin-top: 15px;
+
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.paquete-foto-vertical {
     flex: 1;
+    margin-left: 15px;
+    margin-top: 20px;
 }
