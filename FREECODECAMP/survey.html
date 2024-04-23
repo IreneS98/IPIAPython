@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cuestionario animales</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1 id="title">Animales domésticos</h1>
+    <p id="description">Existen muchos animales diferentes. Cada vez es más frecuente tener un compañero peludo en casa. A continuación se realizará un cuestionario sobre las mascotas con las que conviva.</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Nombre: <textarea name="name" placeholder="Pepita" col="1" rows="1"></textarea></label>
+        <input id="name" type="text" required>
+        <label for="email" id="email-label">Email:</label>
+        <input id="email" type="email" required>
+        <label id="number-label" for="number">Número de mascotas:</label>
+        <input id="number" type="number" min="0" max="10">
+        
+    </form>
