@@ -2,82 +2,148 @@
     font-family: Helvetica-now, serif;
 }
 
-h1 {
-    text-align: center;
-    font-size: 40px;
-}
-
-.dia {
-    background-color: rgba(240, 248, 255, 0.60);
-    width: auto;
-    padding: 40px;
-    margin: 50px 65px;
-    border-radius: 10px;
-
-}
-
-h2 {
-    margin-top: 0;
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 23px;
-}
-
-.dia p {
-    text-align: justify;
-    margin-right: 20px;
-
-}
-
-.paquete {
-    display: flex;
-}
-
-.paquete-texto {
-    flex: auto;
+.cabecera {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
     
 }
 
-.paquete-foto {
-    text-align: right;
-    flex: auto;
-    margin-top: 15px;
-
+.cabecera a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
-.subtitulos-fotos {
+.cabecera a:visited,
+.cabecera a:active,
+.cabecera a:active {
+    color: white;
+}
+
+.cabecera a:hover {
+    color: rgb(220, 211, 211);
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
-.subtitulos-fotos div {
+
+nav ul li {
     flex: auto;
     text-align: center;
-
 }
 
-.paquete-foto-dobles {
-    flex: auto;
-    margin-top: 15px;
 
+body {
+    background-image: url(Imagenes/background\ index.jpg);
+    padding: 0;
+    margin: 0 0 8px 0;
 }
 
-.paquete-caminito{
+main {
+    padding: 30px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.introduccion {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 90%;
+    background-color: rgb(226, 238, 243);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 15px;
+}
+
+.titulo-ultimosviajes {
     display: flex;
 }
 
-.caminito {
-    flex:auto;   
-    text-align:right
+.lineas-ultimosviajes {
+    flex: 2;
+    margin-top: 27px;
 }
 
-h4 {
-    font-size: 18px;
-}
-
-.paquete-foto-vertical {
+.cuerpo-ultimosviajes {
     flex: 1;
-    margin-left: 15px;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+    border-color: rgb(171, 233, 244);
+    display: inline-block;
+}
+
+.pack-card {
+    text-align: center;
+    margin-top: 20px
+}
+
+.card {
+    background-color: rgb(226, 238, 243);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    max-width: 350px;
+    text-align: center;
+    display: inline-block;
     margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    
+}
+
+.card a {
+    text-decoration: none
+}
+
+.card a:visited,
+.cabecera a:active,
+.cabecera a:active {
+    color: black;
+}
+
+.cuerpo p {
+    text-align: justify;
+
+}
+
+
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 5px;
 }
