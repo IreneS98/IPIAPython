@@ -1,14 +1,58 @@
 * {
     font-family: Helvetica-now, serif;
 }
+.cabecera {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+
+.cabecera a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.cabecera a:visited,
+.cabecera a:active,
+.cabecera a:active {
+    color: white;
+}
+
+.cabecera a:hover {
+    color: rgb(220, 211, 211);
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+nav ul li {
+    flex: auto;
+    text-align: center;
+}
+
+body {
+    background-image: url(Imagenes/background\ index.jpg);
+    padding: 0;
+    margin: 0 0 8px 0;
+}
 
 h1 {
     text-align: center;
     font-size: 40px;
+    margin-top: 50PX;
 }
 
 .dia {
-    background-color: rgba(240, 248, 255, 0.60);
+    background-color: rgba(240, 248, 255, 0.85);
     width: auto;
     padding: 40px;
     margin: 50px 65px;
@@ -78,4 +122,8 @@ h4 {
     margin-left: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.caminito > img:nth-last-child(1) {
+    float: right;
 }
