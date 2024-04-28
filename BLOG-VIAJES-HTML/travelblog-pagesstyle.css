@@ -1,12 +1,11 @@
-* {
-    font-family: Helvetica-now, serif;
-}
+  
 .cabecera {
     background-color: black;
     color: white;
     font-size: 25px;
     padding: 20px;
-    
+    font-weight:bold;
+
 }
 
 .cabecera a {
@@ -16,7 +15,6 @@
 }
 
 .cabecera a:visited,
-.cabecera a:active,
 .cabecera a:active {
     color: white;
 }
@@ -40,15 +38,17 @@ nav ul li {
 }
 
 body {
+    font-family: Helvetica-now, serif;
     background-image: url(Imagenes/background\ index.jpg);
     padding: 0;
-    margin: 0 0 8px 0;
+    margin: 0;
 }
 
 h1 {
     text-align: center;
     font-size: 40px;
     margin-top: 50PX;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .dia {
@@ -81,7 +81,7 @@ h3 {
 
 .paquete-texto {
     flex: auto;
-    
+
 }
 
 .paquete-foto {
@@ -124,6 +124,68 @@ h4 {
     margin-bottom: 0px;
 }
 
-.caminito > img:nth-last-child(1) {
+.caminito>img:nth-last-child(1) {
     float: right;
+}
+
+.enlace {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlace:visited,
+.enlace:active {
+    color: black;
+    text-decoration: none;
+}
+
+.enlace:hover {
+    color: rgb(66, 166, 193);
+    text-decoration: none
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.return:link, .return:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.return:hover, .return:active {
+    color: lightblue;
+    text-decoration: none;
+}
+
+
+.boton:link,
+.boton:visited {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ffffffd7;
+    color: rgb(66, 166, 193);
+    padding: 0px 10px;
+    margin: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+    position: fixed;
+    bottom: 10px;
+    right: 3px;
+    
+}
+
+.boton:hover,
+.boton:active {
+    background-color: rgb(195, 216, 222);
 }
