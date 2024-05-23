@@ -1,0 +1,36 @@
+body{
+    background-color: lightgrey;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    font-family:sans-serif;
+    padding: 20px;
+    margin: 15px;
+    }
+
+main{
+position: absolute;
+margin-left: 180px;
+
+}
+
+.navegacion{
+position:fixed;
+min-width: 180px;
+top: 0px;
+left: 0px;
+}
+
+.navegacion li{
+    border-top: 1px solid black;
+    margin: 5px ;
+    list-style: none;
+}
+
+
+header{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
