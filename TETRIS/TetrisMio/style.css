@@ -1,0 +1,16 @@
+body {
+    margin:0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 1px solid rgb(82, 76, 76);
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    
+}
